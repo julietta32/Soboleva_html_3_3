@@ -1,0 +1,97 @@
+div.header{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+
+div.menu,.bottom{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #656363;
+    background-color: dimgrey;
+    height: 45px;
+    text-align:center;
+    margin-top: 10px;
+    padding: 5px ;
+}
+
+     .menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+}
+
+     .menu li{
+    float: left;
+    padding-right: 55px;
+}
+
+    .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+div.spisok{
+
+    height: 200px;
+    width: 300px;
+   float: left;   
+}
+
+   .spisok ul {
+    list-style-type: none;   
+}
+
+   .spisok li{
+    padding: 10px;
+   
+}
+    .spisok a{
+    color: #2c2c2c;
+    text-decoration: none;
+     
+}
+
+
+
+
+div.photo{
+    height: 200px;
+    width: 300px;
+    margin-top: 40px;
+    background-size: cover;
+    background-image: url(img.png);
+    float: left; 
+}
+
+ .text{
+   clear: both;
+   height: 150px;
+   width: 70%;
+   color: #2c2c2c;
+   padding-left: 280px;
+   text-align: justify;       
+}
+
+
+
+.bottom ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom li{
+    float: left;
+    padding-right: 55px;
+}
+
+.bottom a{
+    color: white;
+    text-decoration: none;
+}
